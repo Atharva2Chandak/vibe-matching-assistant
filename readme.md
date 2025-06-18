@@ -52,3 +52,8 @@ The shopping assistant will:
   - `ShoppingAgent`: Main agent coordinating the conversation flow
 - `requirements.txt`: Dependencies list
 - `.env`: Configuration file for API keys
+
+## ⚠️ Known Limitations
+- *Flexible Matching Rules*:  The vibe mapping algorithm may sometimes produce imperfect matches as style interpretation is subjective. Rules are intentionally not rigid to ensure at least some product recommendations appear for most queries
+- *Conversation Reset Needed*: Added a "Start Afresh" button to reset the conversation flow when starting a new query as the assistant may sometimes struggle to distinguish between follow-up questions and new queries without explicit indication
+- *Style Vocabulary*: Limited vocabulary for certain niche fashion styles which may require further training
