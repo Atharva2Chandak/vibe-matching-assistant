@@ -24,10 +24,9 @@ A conversational AI shopping assistant that recommends fashion products based on
    pip install -r requirements.txt
    ```
 
-2. Configure your environment variables in `.env` file:
+2. Configure your environment variables in `.env` file (for sake of your convenience, I have temporarily added my own API key directly, which however is not a good practice):
    ```
    GEMINI_API_KEY="your_gemini_api_key"
-   GOOGLE_API_KEY="your_google_api_key"
    ```
 
 3. Run the application:
@@ -45,7 +44,7 @@ The shopping assistant will:
 
 ## 📊 Project Structure
 
-- `pp.py`: Main application with UI components and business logic
+- `app.py`: Main application with UI components and business logic
   - `VibeMapper`: Maps style vibes to product attributes
   - `FollowUpEngine`: Generates contextual follow-up questions
   - `RecommendationEngine`: Handles product filtering and ranking
